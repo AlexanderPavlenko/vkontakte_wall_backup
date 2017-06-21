@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'vkontakte_wall_backup'
+
+VkontakteWallBackup.backup!(config: ARGV[0] || 'map.yml')
